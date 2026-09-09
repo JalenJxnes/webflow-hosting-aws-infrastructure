@@ -19,6 +19,11 @@ variable "policy_name" {
 }
 
 variable "beanstalk_role_name" {
-    type = string
-    default = "aws-beanstalk"
+  type    = string
+  default = "aws-beanstalk"
+}
+
+variable "app_name" {
+  type    = string
+  default = "webflow-hosting-aws"
 }
